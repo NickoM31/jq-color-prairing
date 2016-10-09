@@ -7,12 +7,12 @@ $("input").css("background",function(){
 
 $("input").on("click",function(){
 
-	var yep = $(this).data("color")
+	var couleur = $(this).data("color")
 
 	if (checked()){
-		$(".main").css("color",yep);
-	}
-	else{$("body").css("background-color",yep)
+		$(".main").css("color",couleur);
+
+	}else{$("body").css("background-color",couleur)
 }
 
 });
